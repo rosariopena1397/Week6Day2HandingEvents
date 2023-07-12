@@ -1,0 +1,34 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    border: 1px solid #000;
+  }
+  #grid { 
+    display: flex;
+    min-height: 100%;
+    display: flex;
+    flex-direction:row;
+    background-color: gainsboro;
+  }
+  #grid > div {
+    display: flex;
+    flex-flow: column wrap;
+     margin: 5px;
+     padding: 5px;
+     justify-content: center;
+      justify-content: space-evenly;
+      margin-top: 10px;
+    }
+  .counterButton {
+    display: flex;
+    background-color: gray;
+    height: 130px; 
+    width: 130px;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 0px; 
+  }
+  .change {
+    display: flex;
+    background-color: black;
+  };
